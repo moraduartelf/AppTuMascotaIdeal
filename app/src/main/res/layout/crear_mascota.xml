@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="ejecutarCrearMascota">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-87dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="25dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="112dp"
+                android:layout_height="71dp"
+                android:layout_gravity="left"
+                android:visibility="visible"
+                app:srcCompat="@drawable/logo_z1603"
+                tools:srcCompat="@drawable/logo_z1603" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="267dp"
+                android:layout_height="71dp"
+                android:layout_gravity="center|right"
+                android:text="La vida es mejor con una mascota"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <EditText
+            android:id="@+id/etNombreMascota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:ems="10"
+            android:hint="Nombre de la mascota"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+
+
+        <EditText
+            android:id="@+id/etTipoMascota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:ems="10"
+            android:hint="Tipo de mascota:
+            Perro/Gato/Ave/Otro."
+            android:minHeight="48dp"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/etSexoMascota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:ems="10"
+            android:hint="Sexo de su macota:
+            Macho/Hembra"
+            android:minHeight="48dp"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/etRaza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:ems="10"
+            android:hint="Raza"
+            android:minHeight="48dp"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/etEdad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:ems="10"
+            android:hint="Edad en meses"
+            android:minHeight="48dp"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/etVacunas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:ems="10"
+            android:hint="Vacunas (SI) /  (NO)"
+            android:minHeight="48dp"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnInfoPett"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text="Guardar" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

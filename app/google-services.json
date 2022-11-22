@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "998025544888",
+    "firebase_url": "https://proyectosprint4-default-rtdb.firebaseio.com",
+    "project_id": "proyectosprint4",
+    "storage_bucket": "proyectosprint4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:998025544888:android:7149ad5afda4bd82f5a04d",
+        "android_client_info": {
+          "package_name": "com.example.apptumascotaidealz1603"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "998025544888-drm7u0uqble1d5t7sd91trno69h17ppu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALZ3JGyG4_eaoaY6XrhzS4XtOsmdfBPGc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "998025544888-drm7u0uqble1d5t7sd91trno69h17ppu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
